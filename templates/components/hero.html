@@ -1,0 +1,31 @@
+<section id="colorlib-hero" class="js-fullheight" data-section="home">
+    <div class="flexslider js-fullheight">
+        <ul class="slides">
+            <li style="background-image: url({{ url_for('static', filename='images/img_bg_1.jpg') }});">
+                <div class="overlay"></div>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12
+                        js-fullheight slider-text">
+                            <div class="slider-text-inner js-fullheight">
+                                <div class="desc">
+                                
+                                    <h1 class="banner-header" style="color: white;">{{ my_data.name|upper }}<br>{{ my_data.title|upper }}</h1>
+                            
+                                    <h2 style="color: white;">{{ my_data.slogan }}</h2>
+                              
+                                    <p>
+                                        <a class="btn btn-primary btn-learn" style="border-color: white; color: white;"
+                                        href="{{ url_for('static', filename=my_data.cv_pdf) }}" download>
+                                            Download CV <i class="icon-download4"></i>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>

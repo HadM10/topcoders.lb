@@ -1,0 +1,33 @@
+<section class="colorlib-skills" data-section="skills">
+    <div class="colorlib-narrow-content">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+                <span class="heading-meta">Our Specialty</span>
+                <h2 class="colorlib-heading animate-box">Technologies we use</h2>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+                <p>
+                    At TopCoders.lb, we have accumulated extensive experience and a diverse skill set in software development through {{ my_data.experience_years }} years of dedicated learning and hands-on practice.
+                </p>
+            </div>
+
+            {% for i in my_data.skills %}
+                <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+                    <div class="progress-wrap">
+                        <h3>{{ i.title }}</h3>
+                        <div class="progress">
+                            <div class="progress-bar color-{{ my_data.skills.index(i) }}" role="progressbar"
+                                 aria-valuenow="{{ i.level }}" aria-valuemin="0" aria-valuemax="100"
+                                 style="width:{{ i.level }}%">
+                                <span>{{ i.level }}%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>

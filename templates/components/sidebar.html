@@ -1,0 +1,27 @@
+<aside id="colorlib-aside" role="complementary" class="border js-fullheight">
+    <div class="text-center">
+        <div class="author-img"
+             style="background-image: url({{ url_for('static', filename='images/tc.jpg') }});"></div>
+        <h1 id="colorlib-logo">
+            <a href="#">{{ my_data.full_name }}</a>
+        </h1>
+
+        <span class="position">
+            <a href="#">{{ my_data.title|upper }}</a>
+        </span>
+    </div>
+
+    <nav id="colorlib-main-menu" role="navigation" class="navbar">
+        <div id="navbar" class="collapse">
+            <ul>
+                <li class="active"><a href="#" data-nav-section="home">Home</a></li>
+                <li><a href="#about" data-nav-section="about">About Us</a></li>
+                <li><a href="#services" data-nav-section="services">Services</a></li>
+                <li><a href="#skills" data-nav-section="skills">Skills</a></li>
+                <li><a href="#ourteam" data-nav-section="ourteam">Our Team</a></li>
+                <!-- <li><a href="#experience" data-nav-section="experience">Experience</a></li> -->
+                <li><a href="#contact" data-nav-section="contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+</aside>

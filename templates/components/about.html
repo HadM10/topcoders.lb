@@ -1,0 +1,55 @@
+<section class="colorlib-about" data-section="about">
+    <div class="colorlib-narrow-content">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
+                    <div class="col-md-12">
+                        <div class="about-desc">
+                            <span class="heading-meta">About Us</span>
+                            <h2 class="colorlib-heading">
+                                Who Are We?
+                            </h2>
+
+                            <p>
+                                Passionate and driven, We are <strong>{{ my_data.full_name }}</strong>,
+                                {{ my_data.about["1"] }}
+                            </p>
+
+                            {% for i in my_data.about.keys() %}
+                                {% if i != "1" %}
+                                    <p>{{ my_data.about[i] }}</p>
+                                {% endif %}
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    {% for i in my_data.about_tasks %}
+                        <div class="col-md-3 animate-box" data-animation-effect={{ i.data_animate_effect }}>
+                            <div class="services color-{{ my_data.about_tasks.index(i) }}">
+                                <span class="icon2"><i class="{{ i.icon }}"></i></span>
+                                <h3>{{ i.title }}</h3>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+                        <div class="hire">
+                            <h2>Releases</h2>
+
+                            {% for i in my_data.releases %}
+                                <a class="btn-hire" disabled="">
+                                    {{ i }}
+                                </a>
+                                <br>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
