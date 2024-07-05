@@ -28,9 +28,7 @@ body {
     line-height: 1.8;
     color: rgba(0, 0, 0, 0.7);
 }
-*{
-  font-family: "kuro" !important;
-}
+
 
 @media screen and (max-width: 2000px) {
     body {
@@ -59,7 +57,7 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
     color: #000000;
-    font-family: "Playfair Display", Georgia, serif;
+    font-family: "kuro";
     font-weight: 400;
     margin: 0 0 30px 0;
 }
@@ -76,7 +74,7 @@ figure figcaption {
     margin: 20px auto 0px auto;
     color: #b3b3b3;
     font-style: italic;
-    font-family: "Quicksand", Arial, sans-serif;
+   font-family: "kuro";
 }
 
 @media screen and (max-width: 480px) {
@@ -207,7 +205,7 @@ figure figcaption {
   text-decoration: none;
   position: relative;
   padding: 10px 0;
-  font-family: "Quicksand", Arial, sans-serif;
+ font-family: "kuro";
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
@@ -375,7 +373,7 @@ figure figcaption {
     margin: 0;
     padding: 0;
     color: black;
-    font-family: "Playfair Display", Georgia, serif;
+    font-family: "kuro";
 }
 
 #colorlib-hero .flexslider .slider-text > .slider-text-inner h1 {
@@ -396,7 +394,7 @@ figure figcaption {
   line-height: 1.5;
   margin-bottom: 30px;
   font-weight: 300;
-  font-family: "Quicksand", Arial, sans-serif;
+ font-family: "kuro";
 }
 
 #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 a {
@@ -624,7 +622,7 @@ body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
   font-size: 14px;
   letter-spacing: 1px;
   text-transform: uppercase;
-  font-family: "Quicksand", Arial, sans-serif;
+ font-family: "kuro";
   background-color: #2c98f0;
   color: #fff;
   position: relative;
@@ -763,7 +761,7 @@ body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2 {
   font-size: 20px;
-  font-family: "Quicksand", Arial, sans-serif;
+ font-family: "kuro";
   font-weight: 500; }
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2 a {
@@ -793,7 +791,7 @@ body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
       font-size: 30px;
       color: #ec5453; }
   .services h3 {
-    font-family: "Quicksand", Arial, sans-serif;
+   font-family: "kuro";
     font-size: 16px;
     font-weight: 500;
     color: black;
@@ -979,7 +977,7 @@ body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
 
 .progress-wrap h3 {
   font-size: 16px;
-  font-family: "Quicksand", Arial, sans-serif;
+ font-family: "kuro";
   margin-bottom: 10px; }
 
 .progress {
@@ -1146,7 +1144,7 @@ body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
     font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 1px;
-    font-family: "Quicksand", Arial, sans-serif; }
+   font-family: "kuro"; }
     .blog-entry .desc h3 a {
       color: #000;
       text-decoration: none; }
@@ -1226,7 +1224,7 @@ body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
           font-size: 16px;
           color: #333333; }
     .project .desc h3 {
-      font-family: "Quicksand", Arial, sans-serif;
+     font-family: "kuro";
       font-size: 16px;
       font-weight: 500;
       text-transform: uppercase;
@@ -1322,7 +1320,7 @@ body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
     font-size: 40px;
     display: block;
     color: white;
-    font-family: "Quicksand", Arial, sans-serif;
+   font-family: "kuro";
     width: 100%;
     font-weight: 700;
     margin-bottom: .3em; }
@@ -1415,7 +1413,7 @@ body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
 .btn {
   margin-right: 4px;
   margin-bottom: 4px;
-  font-family: "Quicksand", Arial, sans-serif;
+ font-family: "kuro";
   font-size: 12px;
   font-weight: 400;
   text-transform: uppercase;

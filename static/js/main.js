@@ -161,6 +161,20 @@
 
 	};
 
+	// Function to scroll to contact section
+let scrollToContactSection = function() {
+    $('html, body').animate({
+        scrollTop: $('#contact-section').offset().top
+    }, 500);
+};
+
+// Event listener for the "Contact Us" button
+$('.btn-learn').click(function(event) {
+    scrollToContactSection(); // Call the scroll function
+    event.preventDefault(); // Prevent default link behavior
+});
+
+
 	// Reflect scrolling in navigation
 	let navActive = function(section) {
 

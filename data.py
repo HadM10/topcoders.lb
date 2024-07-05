@@ -1,6 +1,6 @@
 my_data = {
-    "name": "TopCoders.lb",
-    "full_name": "We are TopCoders.lb",
+    "name": "Top Coders",
+    "full_name": "TOP CODERS",
     "title": "Masters of Web and Mobile Development",
     "slogan": "Let's wave with creativity",
     "cv_pdf": "cv.pdf",
@@ -126,8 +126,10 @@ my_data = {
     "contacts": {
         "email": "topcoders.lb@gmail.com",
         # "pro_email": "topcoders.lb@gmail.com",
-        "phone": "+961 70 836 770",
-        "github": "https://github.com/HadM10",
-        "linkedin": "https://www.linkedin.com/in/hadi-makki-88b6b8212"
+        "phone": "+961 71 363 816",
+        "Whatsapp": "whatsapp://send?phone=+96171363816",
+        "Instagram": "https://www.instagram.com/topcoders.lb",
+        "Facebook": "https://www.facebook.com/profile.php?id=61560817222567",
+        "Tiktok": "https://www.tiktok.com/@topcoders.lb?_t=8mvMjpQXnv7&_r=1"
     }
 }
