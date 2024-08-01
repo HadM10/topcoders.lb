@@ -98,29 +98,17 @@ my_data = {
     ],
    "work": [
     {
-        "title": "Co-founder and Lead Developer at Top Coders",
-        "starting": "2023",
-        "ending": "Present",
+        "title": "Ansar Portal",
+        "starting": "Dec 2023",
+        "ending": "June 2024",
         "content": [
             'Developed the Village Guide Mobile App and Website called "Ansar Portal" using Flutter, enabling users to search, like, discover stores, news, offers, and more in the village Ansar.',
+            'Developed and launched "Ansar Portal" mobile app and website using Flutter, attracting over 100 active users within the first month. Ansar Portal',
+            'Integrated an interactive village map with user authentication, real-time search, and location-based services, enhancing user engagement by 20%.',
+            'Optimized app performance, achieving 99.9% Uptime and scalable infrastructure forfuture growth.',
         ],
-        "link": "https://Topcoders.com"
+        "link": "https://www.ansarportal.com"
     },
-    {
-        "title": "Freelance Full Stack Developer",
-        "starting": "2019",
-        "ending": "Present",
-        "content": [
-            "Created and maintained responsive websites and mobile apps using various technologies.",
-            "Developed a fully functional E-commerce website using HTML, CSS, JavaScript, JQuery, PHP, Ajax, and SQL.",
-            "Designed and implemented an Anime Website for searching, watching, and managing favorites using HTML, CSS, JQuery, and JavaScript.",
-            "Managed the maintenance of websites upon request and used databases such as PostgreSQL and SQLite.",
-            "Utilized Jetbrains tools (Pycharm), GitHub, Heroku, and Azure portal.",
-             "Designed and implemented an E-learning Website using the MERN Stack (React, Express, Node, MongoDB) for private tutor services.",
-            "Created a Cinema Booking Website with functionalities for booking movies, selecting dates, times, and seats, managing profiles, and checking out using the MERN Stack (React, Express, Node, MongoDB)."
-        ],
-        "link": "https://akatsukishoponline.000webhostapp.com"
-    }
 ],
 
     "contacts": {
